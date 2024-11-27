@@ -35,7 +35,15 @@ public class Ejemplo09 {
         cadenaFinal = "Listado de Notas\n";
         
         do {
+            System.out.println("Ingrese el nombre del estudiabnte");
+            nombre = entrada.nextLine();
+            System.out.println("Ingrese la nota del estudiante");
+            nota= entrada.nextInt();
             
+            cadenaFinal= String.format("%sCalificacion %d del estudiante %s\n",
+                    cadenaFinal,
+                    nota,
+                    nombre);
             
             // agrego valor al acumulador
             suma = suma + nota;
