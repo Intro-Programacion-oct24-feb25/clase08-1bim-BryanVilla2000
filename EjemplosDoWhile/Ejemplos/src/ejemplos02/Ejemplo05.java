@@ -36,7 +36,7 @@ public class Ejemplo05 {
         resultado = 1;
 
         int contador = 1;
-        System.out.println("Ingrese el numero");
+        System.out.println("Ingrese el numero base");
         numero = entrada.nextInt();
         System.out.println("Ingrese a la potencia");
         potencia = entrada.nextInt();
